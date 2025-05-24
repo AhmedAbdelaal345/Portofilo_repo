@@ -4,7 +4,6 @@ import profilePic from './assets/images/upscalemedia-transformed.jpeg';
 import chatAppImg from './assets/images/chat_app_scholar.png';
 import ecommerceImg from './assets/images/ecommerce_concept.png';
 import weatherAppImg from './assets/images/weather_app_concept.png';
-
 function App() {
   const [activeSection, setActiveSection] = useState('home');
 
@@ -304,6 +303,7 @@ function App() {
             
             <div className="contact-item">
               <i className="contact-icon github-icon"></i>
+      
               <div>
                 <h3>GitHub</h3>
                 <p><a href="https://github.com/AhmedAbdelaal345" target="_blank" rel="noopener noreferrer">AhmedAbdelaal345</a></p>
@@ -322,7 +322,7 @@ function App() {
           <div className="contact-item">
               <i className="contact-icon tel-icon"></i>
               <div>
-                <h3>LinkedIn</h3>
+                <h3>Phone Number</h3>
                 <p><a href="telto:+2(0)1069683875" target="_blank" rel="noopener noreferrer"></a>+2(0)1069683875</p>
               </div>
             </div>
