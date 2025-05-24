@@ -533,19 +533,43 @@ footer {
 }
 
 .github-icon::before {
-  content: "🐙";
+  content: '';
+  display: inline-block;
+  width: 24px; /* Adjust size */
+  height: 24px;
+  background-image: url('./assets/images/github-icon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .linkedin-icon::before {
-  content: "🔗";
+  content: '';
+  display: inline-block;
+  width: 24px; /* Adjust size */
+  height: 24px;
+  background-image: url('./assets/images/linkedin-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .social-icon.github::before {
-  content: "🐙";
+  content: '';
+  display: inline-block;
+  width: 24px; /* Adjust size */
+  height: 24px;
+  background-image: url('./assets/images/github-icon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .social-icon.linkedin::before {
-  content: "🔗";
+  content: '';
+  display: inline-block;
+  width: 24px; /* Adjust size */
+  height: 24px;
+  background-image: url('./assets/images/linkedin-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Responsive Design */
