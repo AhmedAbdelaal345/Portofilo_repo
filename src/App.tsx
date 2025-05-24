@@ -323,8 +323,8 @@ function App() {
               <i className="contact-icon tel-icon"></i>
               <div>
                 <h3>Phone Number</h3>
-                <p><a href="telto:+2(0)1069683875" target="_blank" rel="noopener noreferrer"></a>+2(0)1069683875</p>
-              </div>
+                <p><a href="tel:+201069683875" target="_blank" rel="noopener noreferrer">+2 (010) 6968-3875</a></p>
+                </div>
             </div>
           </div>
           
