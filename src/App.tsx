@@ -318,11 +318,19 @@ function App() {
               </div>
             </div>
           </div>
+
+          <div className="contact-item">
+              <i className="contact-icon tel-icon"></i>
+              <div>
+                <h3>LinkedIn</h3>
+                <p><a href="telto:+2(0)1069683875" target="_blank" rel="noopener noreferrer"></a>+2(0)1069683875</p>
+              </div>
+            </div>
+          </div>
           
           <div className="contact-message">
             <p>Let's connect and discuss how my skills can contribute to your team or project!</p>
           </div>
-        </div>
       </section>
 
       <footer>

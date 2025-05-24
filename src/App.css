@@ -551,7 +551,9 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.tel-icon::before{
+  content:'📞' ;
+}
 .social-icon.github::before {
   content: '';
   display: inline-block;
