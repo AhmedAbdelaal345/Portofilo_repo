@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import './App.css';
 import profilePic from './assets/images/upscalemedia-transformed.jpeg';
-import chatAppImg from './assets/images/chat_app_scholar.png';
+import chatAppImg from './assets/images/chat_scholar.png';
 import ecommerceImg from './assets/images/ecommerce_concept.png';
-import weatherAppImg from './assets/images/weather_app_concept.png';
+import foodDelviryImg from  './assets/images/foodDelviry.png';
+import weatherAppImg from './assets/images/weather.jpeg';
+import tukoAppImg from './assets/images/toku.png';
+import movieAppImg from './assets/images/movie_App.png';
 function App() {
   const [activeSection, setActiveSection] = useState('home');
 
@@ -193,7 +196,21 @@ function App() {
               <a href="https://github.com/AhmedAbdelaal345/e-commerce" target="_blank" rel="noopener noreferrer" className="project-link">View on GitHub</a>
             </div>
           </div>
-
+          <div className="project-card">
+            <div className="project-image">
+              <img src={foodDelviryImg} alt="Food Delivery Application" />
+            </div>
+            <div className="project-info">
+              <h3>Food Delivery Application</h3>
+              <p>A Flutter Food Delivery Application prototype featuring  and effective state management.</p>
+              <div className="project-tags">
+                <span>Flutter</span>
+                <span>Provider</span>
+                <span>Clean Architecture</span>
+              </div>
+              <a href="https://github.com/AhmedAbdelaal345/Food_Delivery" target="_blank" rel="noopener noreferrer" className="project-link">View on GitHub</a>
+            </div>
+          </div>
           <div className="project-card">
             <div className="project-image">
               <img src={weatherAppImg} alt="Weather Application" />
@@ -202,10 +219,28 @@ function App() {
               <h3>Weather Application</h3>
               <p>A weather application that integrates with external APIs to fetch and display weather data, showcasing API integration skills.</p>
               <div className="project-tags">
-                <span>C++</span>
+                <span>Dart</span>
+                <span>Flutter</span>
                 <span>API Integration</span>
               </div>
               <a href="https://github.com/AhmedAbdelaal345/Weather_App" target="_blank" rel="noopener noreferrer" className="project-link">View on GitHub</a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <div className="project-image">
+              <img src={movieAppImg} alt="Movie Application" />
+            </div>
+            <div className="project-info">
+              <h3>Movie Application</h3>
+              <p>The 'Movie App' is a mobile application developed using the Flutter framework, designed to showcase a list of movies and allow users to track watched movies. This project highlights the implementation of Clean Architecture principles and demonstrates different state management approaches, including setState for simple scenarios and Provider for more complex handling.</p>
+              <div className="project-tags">
+                <span>Dart</span>
+                <span>Flutter</span>
+                <span>Sate Management</span>
+                <span>Provider</span>
+              </div>
+              <a href="https://github.com/AhmedAbdelaal345/Movie_App" target="_blank" rel="noopener noreferrer" className="project-link">View on GitHub</a>
             </div>
           </div>
 
@@ -236,11 +271,16 @@ function App() {
           </div>
 
           <div className="project-card">
+            <div className='project-image'>
+
+          <img src={tukoAppImg} alt="Tuko Application" />
+            </div>
             <div className="project-info">
               <h3>Tuko App</h3>
               <p>An educational application designed to assist users in learning the Japanese language, showcasing versatility in applying programming skills.</p>
               <div className="project-tags">
-                <span>C++</span>
+                <span>dart</span>
+                <span>Clean Architecture</span>
                 <span>Education</span>
               </div>
               <a href="https://github.com/AhmedAbdelaal345/Tuko_App" target="_blank" rel="noopener noreferrer" className="project-link">View on GitHub</a>
@@ -279,6 +319,14 @@ function App() {
               <h3>National Telecommunication Institute (NTI)</h3>
               <p className="timeline-date">Expected Graduation: 2025</p>
               <p>Specialized training enhancing expertise in telecommunications and software development, with a focus on practical industry applications.</p>
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <h3>Digital Egypt Pioneers Initiative (DEPI)</h3>
+              <p className="timeline-date">Expected Graduation: 2026</p>
+              <p>My participation in the Digital Egypt Pioneers Initiative (DEPI) has been instrumental in shaping my skills and career trajectory in the technology sector. It has provided me with a strong foundation in Software Development and equipped me to contribute effectively to digital transformation efforts. This initiative exemplifies my dedication to continuous learning and my proactive approach to acquiring cutting-edge skills in the field of information technology.</p>
             </div>
           </div>
         </div>
