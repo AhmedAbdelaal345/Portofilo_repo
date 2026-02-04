@@ -1,50 +1,55 @@
-# React + TypeScript + Vite
+# 🌐 Ahmed Abdelaal's Portfolio  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)  
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
+![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white)  
 
-Currently, two official plugins are available:
+This repository contains the code for **Ahmed Abdelaal's personal portfolio website**, built using **React + Vite** to showcase his skills, projects, and educational background as a **Flutter Developer** and **Software Engineer**.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📖 About the Portfolio  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The portfolio demonstrates:  
+- Clean, modern UI built with **React**  
+- Fast and optimized build using **Vite**  
+- Responsive design for both desktop and mobile  
+- A showcase of Ahmed’s skills, projects, and academic background  
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## ✨ Features  
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- 👨‍💻 **About Me** – Background, passion for mobile development & clean code principles.  
+- 🛠️ **Skills** – Categorized list of technical skills.  
+- 📱 **Projects** – Detailed project showcase with descriptions & technologies used.  
+- 🎓 **Education & Training** – University and training programs (ITI, NTI, DEPI).  
+- 📬 **Contact** – Easy ways to connect with Ahmed Abdelaal.  
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🛠️ Technologies Used  
+
+- **Frontend:** React, Vite, JavaScript, CSS  
+- **Hosting/Deployment:** GitHub Pages (or Netlify/Vercel if you deployed there)  
+- **Version Control:** Git, GitHub  
+
+---
+
+## 📸 Screenshot  
+
+Here’s a preview of the portfolio:  
+
+![Portfolio Screenshot](https://raw.githubusercontent.com/AhmedAbdelaal345/Portofilo_repo/main/src/assets/images/screanshot.png)  
+
+---
+
+## 🚀 Getting Started  
+
+If you’d like to run the portfolio locally:  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/AhmedAbdelaal345/Portofilo_repo.git
