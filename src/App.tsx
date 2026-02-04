@@ -7,6 +7,8 @@ import foodDelviryImg from  './assets/images/foodDelviry.png';
 import weatherAppImg from './assets/images/weather.jpeg';
 import tukoAppImg from './assets/images/toku.png';
 import movieAppImg from './assets/images/movie_App.png';
+import quizlyImg from './assets/images/quizImage.png';
+
 function App() {
   const [activeSection, setActiveSection] = useState('home');
 
@@ -30,10 +32,13 @@ function App() {
         <div className="hero-content">
           <div className="hero-text">
             <h1>Ahmed Abdelaal</h1>
-            <h2>Flutter Developer | Software Engineer</h2>
+            <h2>Junior Flutter Developer | Firebase | Clean Architecture</h2>
             <p>Building scalable, user-friendly mobile applications with clean, maintainable code.</p>
             <div className="hero-buttons">
               <a href="#contact" className="btn primary-btn">Contact Me</a>
+               <a href="/Ahmed_Abdelaal_CV.pdf" className="btn primary-btn" download>
+    Download CV
+  </a>
               <a href="#projects" className="btn secondary-btn">View Projects</a>
             </div>
           </div>
@@ -50,13 +55,15 @@ function App() {
         </div>
         <div className="about-content">
           <p>
-            I am Ahmed Abdelaal Mahmoud Ashour, an enthusiastic and dedicated student currently pursuing my studies at the Faculty of Computer and Information, Zagazig University. My passion lies deeply within the realm of mobile application development, specifically using the Flutter framework, and I am actively seeking opportunities to commence my professional journey as a Junior Flutter Developer.
+Junior Flutter Developer and IT undergraduate specializing in Flutter, Firebase, and Clean Architecture. Passionate about building scalable mobile applications and currently seeking internship or junior Flutter opportunities.</p>
+         <p>   My academic foundation is complemented by practical training experiences gained from esteemed institutions such as the Information Technology Institute (ITI), from which I anticipate graduating in 2024, and the National Telecommunication Institute (NTI), with an expected graduation in 2025.
+
+I am also a participant in the Digital Egypt Pioneers Initiative (DEPI), a specialized program focused on advanced software development and real-world project building. These experiences have provided me with strong hands-on practice, exposure to industry standards, and the ability to develop scalable, production-level mobile applications using modern technologies.
           </p>
           <p>
-            My academic foundation is complemented by practical training experiences gained from esteemed institutions such as the Information Technology Institute (ITI), from which I anticipate graduating in 2024, and the National Telecommunication Institute (NTI), with an expected graduation in 2025. These programs have provided me with invaluable hands-on experience and a deeper understanding of industry standards.
-          </p>
-          <p>
-            Driven by a desire to solve real-world problems through technology, I focus on building scalable, user-friendly mobile applications. I strongly believe in the principles of writing clean, maintainable code and continuously strive to implement best practices like Clean Architecture in my projects. My goal is to leverage my skills and dedication to contribute meaningfully to innovative and impactful application development projects.
+Driven by a strong desire to solve real-world problems through technology, I focus on building scalable, user-friendly mobile applications using Flutter and modern development practices. I am committed to writing clean, maintainable code and consistently applying best practices such as Clean Architecture and efficient state management across my projects.
+
+My goal is to leverage my technical skills, practical training, and passion for continuous learning to contribute effectively to innovative and impactful software development teams while delivering high-quality mobile solutions that create real value for users.
           </p>
         </div>
       </section>
@@ -158,6 +165,10 @@ function App() {
           </div>
         </div>
       </section>
+<section style={{textAlign:"center",padding:"40px"}}>
+  <h2>🚀 Available for Flutter Developer Roles</h2>
+  <p>Open for internships, freelance and full-time opportunities</p>
+</section>
 
       <section id="projects" className="projects-section">
         <div className="section-header">
@@ -165,6 +176,52 @@ function App() {
           <div className="underline"></div>
         </div>
         <div className="projects-grid">
+          <div className="project-card">
+  <div className="project-image">
+    <img src={quizlyImg} alt="Quizly App" />
+  </div>
+
+  <div className="project-info">
+    <h3>Quizly - Smart Quiz App</h3>
+
+    <p>
+      A production-level real-time quiz application built with Flutter & Firebase.
+      Includes teacher dashboard, student panel, analytics system, instant grading,
+      and clean scalable architecture. Built as a graduation project for DEPI.
+    </p>
+
+    <div className="project-tags">
+      <span>Flutter</span>
+      <span>Firebase</span>
+      <span>Clean Architecture</span>
+      <span>Realtime</span>
+    </div>
+
+    <div className="project-buttons">
+
+  <a 
+    href="https://github.com/AhmedAbdelaal345/DEPI_Final_Project"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project-link"
+  >
+    GitHub
+  </a>
+
+  <a 
+    href="https://drive.google.com/file/d/1Bxw9ugw3h1_KVGRINcYCQ5QcMIAWjO7x/view"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project-link demo"
+  >
+    Live Demo
+  </a>
+
+</div>
+    
+  </div>
+</div>
+
           <div className="project-card">
             <div className="project-image">
               <img src={chatAppImg} alt="Chat Application" />
@@ -289,48 +346,70 @@ function App() {
         </div>
       </section>
 
-      <section id="education" className="education-section">
-        <div className="section-header">
-          <h2>Education & Training</h2>
-          <div className="underline"></div>
-        </div>
-        <div className="timeline">
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-content">
-              <h3>Faculty of Computer and Information, Zagazig University</h3>
-              <p className="timeline-date">Current</p>
-              <p>Pursuing undergraduate studies in Information Technology and Computer Science, building a strong theoretical foundation in software engineering principles.</p>
-            </div>
-          </div>
+     <section id="education" className="education-section">
+  <div className="section-header">
+    <h2>Education & Training</h2>
+    <div className="underline"></div>
+  </div>
 
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-content">
-              <h3>Information Technology Institute (ITI)</h3>
-              <p className="timeline-date">Expected Graduation: 2024</p>
-              <p>Intensive training program focusing on software development, particularly mobile application development with Flutter.</p>
-            </div>
-          </div>
+  <div className="timeline">
 
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-content">
-              <h3>National Telecommunication Institute (NTI)</h3>
-              <p className="timeline-date">Expected Graduation: 2025</p>
-              <p>Specialized training enhancing expertise in telecommunications and software development, with a focus on practical industry applications.</p>
-            </div>
-          </div>
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-content">
-              <h3>Digital Egypt Pioneers Initiative (DEPI)</h3>
-              <p className="timeline-date">Expected Graduation: 2026</p>
-              <p>My participation in the Digital Egypt Pioneers Initiative (DEPI) has been instrumental in shaping my skills and career trajectory in the technology sector. It has provided me with a strong foundation in Software Development and equipped me to contribute effectively to digital transformation efforts. This initiative exemplifies my dedication to continuous learning and my proactive approach to acquiring cutting-edge skills in the field of information technology.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+    {/* DEPI */}
+    <div className="timeline-item">
+      <div className="timeline-dot"></div>
+      <div className="timeline-content">
+        <h3>Digital Egypt Pioneers Initiative (DEPI)</h3>
+        <p className="timeline-date">Expected Graduation: 2026</p>
+        <p>
+          Intensive software development program focused on Flutter, Firebase, and real-world project development.
+          Built production-level mobile applications and gained strong experience in clean architecture,
+          state management, and scalable app development.
+        </p>
+      </div>
+    </div>
+
+    {/* NTI */}
+    <div className="timeline-item">
+      <div className="timeline-dot"></div>
+      <div className="timeline-content">
+        <h3>National Telecommunication Institute (NTI)</h3>
+        <p className="timeline-date">Expected Graduation: 2025</p>
+        <p>
+          Specialized training in telecommunications and software development with hands-on projects,
+          focusing on modern technologies and practical industry skills.
+        </p>
+      </div>
+    </div>
+
+    {/* ITI */}
+    <div className="timeline-item">
+      <div className="timeline-dot"></div>
+      <div className="timeline-content">
+        <h3>Information Technology Institute (ITI)</h3>
+        <p className="timeline-date">Expected Graduation: 2024</p>
+        <p>
+          Intensive training in software development and mobile application development using Flutter,
+          covering clean code practices and real-world project implementation.
+        </p>
+      </div>
+    </div>
+
+    {/* University */}
+    <div className="timeline-item">
+      <div className="timeline-dot"></div>
+      <div className="timeline-content">
+        <h3>Faculty of Computer & Information, Zagazig University</h3>
+        <p className="timeline-date">Undergraduate - Information Technology</p>
+        <p>
+          Studying Information Technology with strong focus on software engineering, data structures,
+          and mobile application development.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+     
 
       <section id="contact" className="contact-section">
         <div className="section-header">
