@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import profilePic from './assets/images/upscalemedia-transformed.jpeg';
+import profilePic from './assets/images/my_pic.jpeg';
 import chatAppImg from './assets/images/chat_scholar.png';
 import ecommerceImg from './assets/images/ecommerce_concept.png';
 import foodDelviryImg from  './assets/images/foodDelviry.png';
