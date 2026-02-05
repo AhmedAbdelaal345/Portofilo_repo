@@ -444,7 +444,7 @@ My goal is to leverage my technical skills, practical training, and passion for 
               </span>
               <div>
                 <h3>GitHub</h3>
-                <p><a href="https://github.com/AhmedAbdelaal345" target="_blank" rel="noopener noreferrer">AhmedAbdelaal345</a></p>
+                <p><a href="https://github.com/AhmedAbdelaal345" target="_blank" rel="noopener noreferrer">Ahmed Abdelaal Github</a></p>
               </div>
             </div>
             
@@ -459,7 +459,7 @@ My goal is to leverage my technical skills, practical training, and passion for 
               </span>
               <div>
                 <h3>LinkedIn</h3>
-                <p><a href="https://linkedin.com/in/ahmed-abdelaal-18b0ba2bb" target="_blank" rel="noopener noreferrer">ahmed-abdelaal-18b0ba2bb</a></p>
+                <p><a href="https://www.linkedin.com/in/ahmeed-abdeelaal/" target="_blank" rel="noopener noreferrer">Ahmed Abdelaal</a></p>
               </div>
             </div>
           </div>
@@ -476,7 +476,7 @@ My goal is to leverage my technical skills, practical training, and passion for 
                 </div>
             </div>
           </div>
-          
+          <div></div>
           <div className="contact-message">
             <p>Let's connect and discuss how my skills can contribute to your team or project!</p>
           </div>
