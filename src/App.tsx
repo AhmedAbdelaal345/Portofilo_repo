@@ -464,8 +464,33 @@ My goal is to leverage my technical skills, practical training, and passion for 
         <div className="footer-content">
           <p>&copy; 2025 Ahmed Abdelaal. All rights reserved.</p>
           <div className="social-links">
-            <a href="https://github.com/AhmedAbdelaal345" target="_blank" rel="noopener noreferrer" className="social-icon github"></a>
-            <a href="https://linkedin.com/in/ahmed-abdelaal-18b0ba2bb" target="_blank" rel="noopener noreferrer" className="social-icon linkedin"></a>
+            <a href="https://github.com/AhmedAbdelaal345" target="_blank" rel="noopener noreferrer" className="social-icon github" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill="currentColor"
+                  d="M12 1.5C6.2 1.5 1.5 6.2 1.5 12c0 4.7 3 8.7 7.2 10.1.5.1.7-.2.7-.5v-1.9c-2.9.6-3.5-1.4-3.5-1.4-.5-1.2-1.1-1.6-1.1-1.6-1-.7.1-.7.1-.7 1.1.1 1.6 1.1 1.6 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.3-.3-4.8-1.2-4.8-5.2 0-1.1.4-2.1 1.1-2.8-.1-.3-.5-1.3.1-2.8 0 0 .9-.3 2.9 1.1.8-.2 1.7-.3 2.6-.3s1.8.1 2.6.3c2-1.4 2.9-1.1 2.9-1.1.6 1.5.2 2.5.1 2.8.7.7 1.1 1.7 1.1 2.8 0 4-2.5 4.9-4.8 5.2.4.3.7 1 .7 1.9v2.9c0 .3.2.6.7.5 4.2-1.4 7.2-5.4 7.2-10.1 0-5.8-4.7-10.5-10.5-10.5z"
+                />
+              </svg>
+            </a>
+            <a href="https://linkedin.com/in/ahmed-abdelaal-18b0ba2bb" target="_blank" rel="noopener noreferrer" className="social-icon linkedin" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill="currentColor"
+                  d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8.5h5V24H0V8.5zm8.5 0h4.8v2.1h.07c.67-1.27 2.3-2.6 4.73-2.6 5.06 0 6 3.06 6 7.05V24h-5v-7.9c0-1.88-.03-4.29-2.62-4.29-2.62 0-3.02 2.05-3.02 4.17V24h-5V8.5z"
+                />
+              </svg>
+            </a>
+            <a href="mailto:ahmeed.abdelaal@gmail.com" className="social-icon email" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" />
+                <path d="m22 8-10 6L2 8" />
+              </svg>
+            </a>
+            <a href="tel:+201069683875" className="social-icon phone" aria-label="Phone">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.8 19.8 0 0 1 3 5.18 2 2 0 0 1 5.11 3h3a2 2 0 0 1 2 1.72c.12.81.33 1.6.62 2.35a2 2 0 0 1-.45 2.11L9.09 10.91a16 16 0 0 0 4 4l1.73-1.73a2 2 0 0 1 2.11-.45c.75.29 1.54.5 2.35.62A2 2 0 0 1 22 16.92z" />
+              </svg>
+            </a>
           </div>
         </div>
       </footer>

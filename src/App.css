@@ -934,6 +934,110 @@ section {
     animation: shimmer 2s infinite;
 }
 
+/* --- FOOTER --- */
+footer {
+    padding: 2.5rem 5%;
+    border-top: 1px solid var(--glass-border);
+    background: rgba(11, 15, 20, 0.7);
+    backdrop-filter: var(--glass-blur);
+    position: relative;
+    overflow: hidden;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 0;
+    height: 2px;
+    background: var(--primary-gradient);
+    background-size: var(--gradient-size);
+    opacity: 0.4;
+    animation: gradientShift 12s ease infinite;
+}
+
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.footer-content p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.social-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    background: var(--surface);
+    border: 1px solid var(--glass-border);
+    transition: var(--transition-base);
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.social-icon::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--primary-gradient);
+    background-size: var(--gradient-size);
+    opacity: 0;
+    transition: var(--transition-base);
+}
+
+.social-icon svg {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.social-icon:hover {
+    color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 16px 35px rgba(2, 6, 23, 0.55);
+}
+
+.social-icon:hover::before {
+    opacity: 1;
+}
+
+.social-icon:focus-visible {
+    outline: 2px solid rgba(34, 211, 238, 0.7);
+    outline-offset: 3px;
+}
+
+.social-icon.linkedin::before {
+    background: var(--accent-gradient);
+}
+
+.social-icon.email::before {
+    background: var(--secondary-gradient);
+}
+
+.social-icon.phone::before {
+    background: var(--success-gradient);
+}
+
 /* --- RESPONSIVE DESIGN --- */
 @media (max-width: 968px) {
     .hero-content {
@@ -994,6 +1098,15 @@ section {
     .btn {
         padding: 0.9rem 2rem;
         font-size: 0.95rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
     }
 }
 
