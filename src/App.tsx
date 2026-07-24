@@ -499,7 +499,7 @@ function App() {
           <p>I am eager to connect regarding potential job opportunities, internships, or collaborations in the field of Flutter development. Please feel free to reach out through any of the following channels:</p>
 
           <div className="contact-info">
-            <div className="contact-item">
+            <a href="mailto:ahmeed.abdelaal@gmail.com" className="contact-item">
               <span className="contact-icon email" aria-hidden="true">
                 <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" />
@@ -508,11 +508,11 @@ function App() {
               </span>
               <div>
                 <h3>Email</h3>
-                <p><a href="mailto:ahmeed.abdelaal@gmail.com">ahmeed.abdelaal@gmail.com</a></p>
+                <p>ahmeed.abdelaal@gmail.com</p>
               </div>
-            </div>
+            </a>
 
-            <div className="contact-item">
+            <a href="https://github.com/AhmedAbdelaal345" target="_blank" rel="noopener noreferrer" className="contact-item">
               <span className="contact-icon github" aria-hidden="true">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <path
@@ -523,11 +523,11 @@ function App() {
               </span>
               <div>
                 <h3>GitHub</h3>
-                <p><a href="https://github.com/AhmedAbdelaal345" target="_blank" rel="noopener noreferrer">Ahmed Abdelaal Github</a></p>
+                <p>Ahmed Abdelaal Github</p>
               </div>
-            </div>
+            </a>
 
-            <div className="contact-item">
+            <a href="https://www.linkedin.com/in/ahmeed-abdeelaal/" target="_blank" rel="noopener noreferrer" className="contact-item">
               <span className="contact-icon linkedin" aria-hidden="true">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <path
@@ -538,22 +538,23 @@ function App() {
               </span>
               <div>
                 <h3>LinkedIn</h3>
-                <p><a href="https://www.linkedin.com/in/ahmeed-abdeelaal/" target="_blank" rel="noopener noreferrer">Ahmed Abdelaal</a></p>
+                <p>Ahmed Abdelaal</p>
               </div>
-            </div>
+            </a>
+
+            <a href="tel:+201069683875" target="_blank" rel="noopener noreferrer" className="contact-item">
+              <span className="contact-icon phone" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.8 19.8 0 0 1 3 5.18 2 2 0 0 1 5.11 3h3a2 2 0 0 1 2 1.72c.12.81.33 1.6.62 2.35a2 2 0 0 1-.45 2.11L9.09 10.91a16 16 0 0 0 4 4l1.73-1.73a2 2 0 0 1 2.11-.45c.75.29 1.54.5 2.35.62A2 2 0 0 1 22 16.92z" />
+                </svg>
+              </span>
+              <div>
+                <h3>Phone Number</h3>
+                <p>+2 (010) 6968-3875</p>
+              </div>
+            </a>
           </div>
 
-          <div className="contact-item">
-            <span className="contact-icon phone" aria-hidden="true">
-              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.8 19.8 0 0 1 3 5.18 2 2 0 0 1 5.11 3h3a2 2 0 0 1 2 1.72c.12.81.33 1.6.62 2.35a2 2 0 0 1-.45 2.11L9.09 10.91a16 16 0 0 0 4 4l1.73-1.73a2 2 0 0 1 2.11-.45c.75.29 1.54.5 2.35.62A2 2 0 0 1 22 16.92z" />
-              </svg>
-            </span>
-            <div>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+201069683875" target="_blank" rel="noopener noreferrer">+2 (010) 6968-3875</a></p>
-            </div>
-          </div>
         </div>
         <div></div>
         <div className="contact-message">
