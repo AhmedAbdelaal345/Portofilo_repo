@@ -555,10 +555,9 @@ function App() {
             </a>
           </div>
 
-        </div>
-        <div></div>
-        <div className="contact-message">
-          <p>Let's connect and discuss how my skills can contribute to your team or project!</p>
+          <div className="contact-message">
+            <p>Let's connect and discuss how my skills can contribute to your team or project!</p>
+          </div>
         </div>
       </section>
 
