@@ -3,11 +3,13 @@ import './App.css';
 import profilePic from './assets/images/my_pic.jpeg';
 import chatAppImg from './assets/images/chat_scholar.png';
 import ecommerceImg from './assets/images/ecommerce_concept.png';
-import foodDelviryImg from  './assets/images/foodDelviry.png';
+import foodDelviryImg from './assets/images/foodDelviry.png';
 import weatherAppImg from './assets/images/weather.jpeg';
 import tukoAppImg from './assets/images/toku.png';
 import movieAppImg from './assets/images/movie_App.png';
 import quizlyImg from './assets/images/quizImage.png';
+import driveMateAppImg from './assets/images/drive_mate_app.png';
+import driveMateDashboardImg from './assets/images/drive_mate_dashboard.png';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -36,9 +38,9 @@ function App() {
             <p>Building scalable, user-friendly mobile applications with clean, maintainable code.</p>
             <div className="hero-buttons">
               <a href="#contact" className="btn primary-btn">Contact Me</a>
-               <a href="/Ahmed_Abdelaal_CV.pdf" className="btn primary-btn" download>
-    Download CV
-  </a>
+              <a href="/Ahmed_Abdelaal_CV.pdf" className="btn primary-btn" download>
+                Download CV
+              </a>
               <a href="#projects" className="btn secondary-btn">View Projects</a>
             </div>
           </div>
@@ -55,15 +57,15 @@ function App() {
         </div>
         <div className="about-content">
           <p>
-Junior Flutter Developer and IT undergraduate specializing in Flutter, Firebase, and Clean Architecture. Passionate about building scalable mobile applications and currently seeking internship or junior Flutter opportunities.</p>
-         <p>   My academic foundation is complemented by practical training experiences gained from esteemed institutions such as the Information Technology Institute (ITI), from which I anticipate graduating in 2024, and the National Telecommunication Institute (NTI), with an expected graduation in 2025.
+            Junior Flutter Developer and IT undergraduate specializing in Flutter, Firebase, and Clean Architecture. Passionate about building scalable mobile applications and currently seeking internship or junior Flutter opportunities.</p>
+          <p>   My academic foundation is complemented by practical training experiences gained from esteemed institutions such as the Information Technology Institute (ITI), from which I anticipate graduating in 2024, and the National Telecommunication Institute (NTI), with an expected graduation in 2025.
 
-I am also a participant in the Digital Egypt Pioneers Initiative (DEPI), a specialized program focused on advanced software development and real-world project building. These experiences have provided me with strong hands-on practice, exposure to industry standards, and the ability to develop scalable, production-level mobile applications using modern technologies.
+            I am also a participant in the Digital Egypt Pioneers Initiative (DEPI), a specialized program focused on advanced software development and real-world project building. These experiences have provided me with strong hands-on practice, exposure to industry standards, and the ability to develop scalable, production-level mobile applications using modern technologies.
           </p>
           <p>
-Driven by a strong desire to solve real-world problems through technology, I focus on building scalable, user-friendly mobile applications using Flutter and modern development practices. I am committed to writing clean, maintainable code and consistently applying best practices such as Clean Architecture and efficient state management across my projects.
+            Driven by a strong desire to solve real-world problems through technology, I focus on building scalable, user-friendly mobile applications using Flutter and modern development practices. I am committed to writing clean, maintainable code and consistently applying best practices such as Clean Architecture and efficient state management across my projects.
 
-My goal is to leverage my technical skills, practical training, and passion for continuous learning to contribute effectively to innovative and impactful software development teams while delivering high-quality mobile solutions that create real value for users.
+            My goal is to leverage my technical skills, practical training, and passion for continuous learning to contribute effectively to innovative and impactful software development teams while delivering high-quality mobile solutions that create real value for users.
           </p>
         </div>
       </section>
@@ -165,10 +167,10 @@ My goal is to leverage my technical skills, practical training, and passion for 
           </div>
         </div>
       </section>
-<section style={{textAlign:"center",padding:"40px"}}>
-  <h2>🚀 Available for Flutter Developer Roles</h2>
-  <p>Open for internships, freelance and full-time opportunities</p>
-</section>
+      <section style={{ textAlign: "center", padding: "40px" }}>
+        <h2>🚀 Available for Flutter Developer Roles</h2>
+        <p>Open for internships, freelance and full-time opportunities</p>
+      </section>
 
       <section id="projects" className="projects-section">
         <div className="section-header">
@@ -177,50 +179,122 @@ My goal is to leverage my technical skills, practical training, and passion for 
         </div>
         <div className="projects-grid">
           <div className="project-card">
-  <div className="project-image">
-    <img src={quizlyImg} alt="Quizly App" />
-  </div>
+            <div className="project-image">
+              <img src={driveMateAppImg} alt="DriveMate Mobile App" />
+            </div>
+            <div className="project-info">
+              <h3>DriveMate - Smart Car Diagnostic App</h3>
+              <p>
+                An intelligent Flutter mobile application featuring AI voice-based sound analysis for instant vehicle diagnosis, real-time status monitoring (engine health & oil level), maintenance booking, and emergency call support.
+              </p>
+              <div className="project-tags">
+                <span>Flutter</span>
+                <span>AI Sound Diagnosis</span>
+                <span>Clean Architecture</span>
+                <span>Firebase</span>
+              </div>
+              <div className="project-buttons">
+                <a
+                  href="https://github.com/AhmedAbdelaal345/driver_mate"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/1nm__WPLtSH0JxxWjvDChe79dMx_tD1BK/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link demo"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
 
-  <div className="project-info">
-    <h3>Quizly - Smart Quiz App</h3>
+          <div className="project-card">
+            <div className="project-image">
+              <img src={driveMateDashboardImg} alt="DriveMate Admin Dashboard" />
+            </div>
+            <div className="project-info">
+              <h3>DriveMate - Admin & Service Dashboard</h3>
+              <p>
+                A modern administrative and service dashboard for the DriveMate ecosystem, providing real-time telemetry analytics, diagnostic report inspection, maintenance booking management, and fleet monitoring.
+              </p>
+              <div className="project-tags">
+                <span>Flutter Web</span>
+                <span>Dashboard</span>
+                <span>Clean Architecture</span>
+                <span>REST API</span>
+              </div>
+              <div className="project-buttons">
+                <a
+                  href="https://github.com/AhmedAbdelaal345/drive_mate_dash_board"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/1TkXTXA5BvWJEkcVbLVkYyM1wad4bVPdr/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link demo"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
 
-    <p>
-      A production-level real-time quiz application built with Flutter & Firebase.
-      Includes teacher dashboard, student panel, analytics system, instant grading,
-      and clean scalable architecture. Built as a graduation project for DEPI.
-    </p>
+          <div className="project-card">
+            <div className="project-image">
+              <img src={quizlyImg} alt="Quizly App" />
+            </div>
 
-    <div className="project-tags">
-      <span>Flutter</span>
-      <span>Firebase</span>
-      <span>Clean Architecture</span>
-      <span>Realtime</span>
-    </div>
+            <div className="project-info">
+              <h3>Quizly - Smart Quiz App</h3>
 
-    <div className="project-buttons">
+              <p>
+                A production-level real-time quiz application built with Flutter & Firebase.
+                Includes teacher dashboard, student panel, analytics system, instant grading,
+                and clean scalable architecture. Built as a graduation project for DEPI.
+              </p>
 
-  <a 
-    href="https://github.com/AhmedAbdelaal345/DEPI_Final_Project"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="project-link"
-  >
-    GitHub
-  </a>
+              <div className="project-tags">
+                <span>Flutter</span>
+                <span>Firebase</span>
+                <span>Clean Architecture</span>
+                <span>Realtime</span>
+              </div>
 
-  <a 
-    href="https://drive.google.com/file/d/1Bxw9ugw3h1_KVGRINcYCQ5QcMIAWjO7x/view"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="project-link demo"
-  >
-    Live Demo
-  </a>
+              <div className="project-buttons">
 
-</div>
-    
-  </div>
-</div>
+                <a
+                  href="https://github.com/AhmedAbdelaal345/DEPI_Final_Project"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link"
+                >
+                  GitHub
+                </a>
+
+                <a
+                  href="https://drive.google.com/file/d/1Bxw9ugw3h1_KVGRINcYCQ5QcMIAWjO7x/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link demo"
+                >
+                  Live Demo
+                </a>
+
+              </div>
+
+            </div>
+          </div>
 
           <div className="project-card">
             <div className="project-image">
@@ -330,7 +404,7 @@ My goal is to leverage my technical skills, practical training, and passion for 
           <div className="project-card">
             <div className='project-image'>
 
-          <img src={tukoAppImg} alt="Tuko Application" />
+              <img src={tukoAppImg} alt="Tuko Application" />
             </div>
             <div className="project-info">
               <h3>Tuko App</h3>
@@ -346,70 +420,70 @@ My goal is to leverage my technical skills, practical training, and passion for 
         </div>
       </section>
 
-     <section id="education" className="education-section">
-  <div className="section-header">
-    <h2>Education & Training</h2>
-    <div className="underline"></div>
-  </div>
+      <section id="education" className="education-section">
+        <div className="section-header">
+          <h2>Education & Training</h2>
+          <div className="underline"></div>
+        </div>
 
-  <div className="timeline">
+        <div className="timeline">
 
-    {/* DEPI */}
-    <div className="timeline-item">
-      <div className="timeline-dot"></div>
-      <div className="timeline-content">
-        <h3>Digital Egypt Pioneers Initiative (DEPI)</h3>
-        <p className="timeline-date">Expected Graduation: 2026</p>
-        <p>
-          Intensive software development program focused on Flutter, Firebase, and real-world project development.
-          Built production-level mobile applications and gained strong experience in clean architecture,
-          state management, and scalable app development.
-        </p>
-      </div>
-    </div>
+          {/* DEPI */}
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <h3>Digital Egypt Pioneers Initiative (DEPI)</h3>
+              <p className="timeline-date">Expected Graduation: 2026</p>
+              <p>
+                Intensive software development program focused on Flutter, Firebase, and real-world project development.
+                Built production-level mobile applications and gained strong experience in clean architecture,
+                state management, and scalable app development.
+              </p>
+            </div>
+          </div>
 
-    {/* NTI */}
-    <div className="timeline-item">
-      <div className="timeline-dot"></div>
-      <div className="timeline-content">
-        <h3>National Telecommunication Institute (NTI)</h3>
-        <p className="timeline-date">Expected Graduation: 2025</p>
-        <p>
-          Specialized training in telecommunications and software development with hands-on projects,
-          focusing on modern technologies and practical industry skills.
-        </p>
-      </div>
-    </div>
+          {/* NTI */}
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <h3>National Telecommunication Institute (NTI)</h3>
+              <p className="timeline-date">Expected Graduation: 2025</p>
+              <p>
+                Specialized training in telecommunications and software development with hands-on projects,
+                focusing on modern technologies and practical industry skills.
+              </p>
+            </div>
+          </div>
 
-    {/* ITI */}
-    <div className="timeline-item">
-      <div className="timeline-dot"></div>
-      <div className="timeline-content">
-        <h3>Information Technology Institute (ITI)</h3>
-        <p className="timeline-date">Expected Graduation: 2024</p>
-        <p>
-          Intensive training in software development and mobile application development using Flutter,
-          covering clean code practices and real-world project implementation.
-        </p>
-      </div>
-    </div>
+          {/* ITI */}
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <h3>Information Technology Institute (ITI)</h3>
+              <p className="timeline-date">Expected Graduation: 2024</p>
+              <p>
+                Intensive training in software development and mobile application development using Flutter,
+                covering clean code practices and real-world project implementation.
+              </p>
+            </div>
+          </div>
 
-    {/* University */}
-    <div className="timeline-item">
-      <div className="timeline-dot"></div>
-      <div className="timeline-content">
-        <h3>Faculty of Computer & Information, Zagazig University</h3>
-        <p className="timeline-date">Undergraduate - Information Technology</p>
-        <p>
-          Studying Information Technology with strong focus on software engineering, data structures,
-          and mobile application development.
-        </p>
-      </div>
-    </div>
+          {/* University */}
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-content">
+              <h3>Faculty of Computer & Information, Zagazig University</h3>
+              <p className="timeline-date">Undergraduate - Information Technology</p>
+              <p>
+                Studying Information Technology with strong focus on software engineering, data structures,
+                and mobile application development.
+              </p>
+            </div>
+          </div>
 
-  </div>
-</section>
-     
+        </div>
+      </section>
+
 
       <section id="contact" className="contact-section">
         <div className="section-header">
@@ -418,7 +492,7 @@ My goal is to leverage my technical skills, practical training, and passion for 
         </div>
         <div className="contact-content">
           <p>I am eager to connect regarding potential job opportunities, internships, or collaborations in the field of Flutter development. Please feel free to reach out through any of the following channels:</p>
-          
+
           <div className="contact-info">
             <div className="contact-item">
               <span className="contact-icon email" aria-hidden="true">
@@ -432,7 +506,7 @@ My goal is to leverage my technical skills, practical training, and passion for 
                 <p><a href="mailto:ahmeed.abdelaal@gmail.com">ahmeed.abdelaal@gmail.com</a></p>
               </div>
             </div>
-            
+
             <div className="contact-item">
               <span className="contact-icon github" aria-hidden="true">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -447,7 +521,7 @@ My goal is to leverage my technical skills, practical training, and passion for 
                 <p><a href="https://github.com/AhmedAbdelaal345" target="_blank" rel="noopener noreferrer">Ahmed Abdelaal Github</a></p>
               </div>
             </div>
-            
+
             <div className="contact-item">
               <span className="contact-icon linkedin" aria-hidden="true">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -465,21 +539,21 @@ My goal is to leverage my technical skills, practical training, and passion for 
           </div>
 
           <div className="contact-item">
-              <span className="contact-icon phone" aria-hidden="true">
-                <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.8 19.8 0 0 1 3 5.18 2 2 0 0 1 5.11 3h3a2 2 0 0 1 2 1.72c.12.81.33 1.6.62 2.35a2 2 0 0 1-.45 2.11L9.09 10.91a16 16 0 0 0 4 4l1.73-1.73a2 2 0 0 1 2.11-.45c.75.29 1.54.5 2.35.62A2 2 0 0 1 22 16.92z" />
-                </svg>
-              </span>
-              <div>
-                <h3>Phone Number</h3>
-                <p><a href="tel:+201069683875" target="_blank" rel="noopener noreferrer">+2 (010) 6968-3875</a></p>
-                </div>
+            <span className="contact-icon phone" aria-hidden="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.8 19.8 0 0 1 3 5.18 2 2 0 0 1 5.11 3h3a2 2 0 0 1 2 1.72c.12.81.33 1.6.62 2.35a2 2 0 0 1-.45 2.11L9.09 10.91a16 16 0 0 0 4 4l1.73-1.73a2 2 0 0 1 2.11-.45c.75.29 1.54.5 2.35.62A2 2 0 0 1 22 16.92z" />
+              </svg>
+            </span>
+            <div>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+201069683875" target="_blank" rel="noopener noreferrer">+2 (010) 6968-3875</a></p>
             </div>
           </div>
-          <div></div>
-          <div className="contact-message">
-            <p>Let's connect and discuss how my skills can contribute to your team or project!</p>
-          </div>
+        </div>
+        <div></div>
+        <div className="contact-message">
+          <p>Let's connect and discuss how my skills can contribute to your team or project!</p>
+        </div>
       </section>
 
       <footer>
