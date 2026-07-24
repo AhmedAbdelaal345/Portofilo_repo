@@ -993,33 +993,28 @@ section {
     padding: 1.5rem;
     box-shadow: var(--shadow-sm);
     transition: var(--transition-base);
-    text-decoration: none;
-    color: var(--text-primary);
-    cursor: pointer;
 }
 
 .contact-item:hover {
-    transform: translateY(-6px);
-    border-color: rgba(34, 211, 238, 0.45);
+    transform: translateY(-4px);
+    border-color: rgba(34, 211, 238, 0.35);
     box-shadow: var(--shadow-md);
-    background: var(--surface-hover);
 }
 
 .contact-item h3 {
     font-size: 1.05rem;
     margin-bottom: 0.3rem;
-    color: var(--text-primary);
 }
 
-.contact-item p {
+.contact-item a {
     color: var(--text-secondary);
+    text-decoration: none;
     transition: var(--transition-fast);
 }
 
-.contact-item:hover p {
+.contact-item a:hover {
     color: var(--text-primary);
 }
-
 
 .contact-icon {
     width: 46px;
