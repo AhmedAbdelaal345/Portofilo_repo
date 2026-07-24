@@ -508,7 +508,7 @@ function App() {
               </span>
               <div>
                 <h3>Email</h3>
-                <p>ahmeed.abdelaal@gmail.com</p>
+                <p>ahmeed.abdeelaal@gmail.com</p>
               </div>
             </a>
 
