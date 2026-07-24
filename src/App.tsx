@@ -57,11 +57,16 @@ function App() {
         </div>
         <div className="about-content">
           <p>
-            Junior Flutter Developer and IT undergraduate specializing in Flutter, Firebase, and Clean Architecture. Passionate about building scalable mobile applications and currently seeking internship or junior Flutter opportunities.</p>
-          <p>   My academic foundation is complemented by practical training experiences gained from esteemed institutions such as the Information Technology Institute (ITI), from which I anticipate graduating in 2024, and the National Telecommunication Institute (NTI), with an expected graduation in 2025.
-
-            I am also a participant in the Digital Egypt Pioneers Initiative (DEPI), a specialized program focused on advanced software development and real-world project building. These experiences have provided me with strong hands-on practice, exposure to industry standards, and the ability to develop scalable, production-level mobile applications using modern technologies.
+            I'm Ahmed Abdelaal, a Flutter Developer and a graduate of the Faculty of Computers and Information, Zagazig University, where I graduated with a Very Good grade and a 3.41/4.00 GPA.</p>
+          <p>
+            I specialize in building cross-platform mobile applications using Flutter and Dart, with hands-on experience in Firebase, REST APIs, Clean Architecture, Cubit (Bloc), and modern mobile development practices. Throughout my academic journey and professional training, I have developed real-world applications that focus on scalability, performance, and user experience.
           </p>
+
+          <p>   My practical experience has been strengthened through intensive training programs at the Information Technology Institute (ITI), the National Telecommunication Institute (NTI), and the Digital Egypt Pioneers Initiative (DEPI). These experiences allowed me to work on production-oriented projects, collaborate in professional environments, and apply industry-standard development workflows.          </p>
+          <p>
+            One of my proudest achievements is Driver Mate, my graduation project—an AI-powered mobile application that helps detect vehicle engine problems by analyzing engine sounds, providing users with diagnostic insights and maintenance recommendations.
+          </p>
+
           <p>
             Driven by a strong desire to solve real-world problems through technology, I focus on building scalable, user-friendly mobile applications using Flutter and modern development practices. I am committed to writing clean, maintainable code and consistently applying best practices such as Clean Architecture and efficient state management across my projects.
 
