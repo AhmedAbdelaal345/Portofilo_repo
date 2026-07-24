@@ -499,7 +499,7 @@ function App() {
           <p>I am eager to connect regarding potential job opportunities, internships, or collaborations in the field of Flutter development. Please feel free to reach out through any of the following channels:</p>
 
           <div className="contact-info">
-            <a href="mailto:ahmeed.abdelaal@gmail.com" className="contact-item">
+            <a href="mailto:ahmeed.abdeelaal@gmail.com" className="contact-item">
               <span className="contact-icon email" aria-hidden="true">
                 <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" />
