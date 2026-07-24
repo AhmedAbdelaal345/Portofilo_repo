@@ -38,7 +38,7 @@ function App() {
             <p>Building scalable, user-friendly mobile applications with clean, maintainable code.</p>
             <div className="hero-buttons">
               <a href="#contact" className="btn primary-btn">Contact Me</a>
-              <a href="/Ahmed_Abdelaal_CV.pdf" className="btn primary-btn" download>
+              <a href="/Ahmed_Abdelaal_CV_Flutter.pdf" className="btn primary-btn" download>
                 Download CV
               </a>
               <a href="#projects" className="btn secondary-btn">View Projects</a>
